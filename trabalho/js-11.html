@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Parcelas</title>
+</head>
+
+<body>
+
+<label for="">Valor da Compra</label> <br>
+<input type="text" id="input_valordacompra"> <br>
+<label for="">Parcelas</label> <br>
+<select name="parcela" id="parcelas_da_compra"> <br>
+    <option value="">2 parcelas</option> <br>
+    <option value="">3 parcelas</option> <br>
+    <option value="">4 parcelas</option> <br>
+    <option value="">5 parcelas</option> <br>
+    <option value="">6 parcelas</option> <br>
+    <option value="">7 parcelas</option> <br>
+    <option value="">8 parcelas</option> <br>
+    <option value="">9 parcelas</option> <br>
+    <option value="">10 parcelas</option> <br>
+</select> <br>
+<button onclick="calcular">Calcular</button> <br>
+
+<p id="valorcomjuros:"></p>
+<p>Valor dos juros:</p>
+<p>Valor da Parcela</p>
+
+<script>
+    
+    function calcular(){
+            var parcelas_da_compra = documente.getElementById("parcela").value;
+            if (parcelas_da_compra == 1) {
+                document.getElementById("valorcomjuros").innerHTML = 'O valor sem juros é '
+            }
+            else{
+                alert(value);
+            }
+        }
+    //Capturar Valor
+    var valor = document.getElementById("input_valordacompra").value;
+    var parcela = document.getElementById("input_parcelas").value;
+    
+    //Converter
+    valor = parseFloat(valor);
+    parcela = parseFloat(parcela);
+    
+    //Cálculo Matemático
+    var valor_compra = 
+    
+</script>
+
+</body>
+</html>
